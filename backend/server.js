@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://flex-it-out-ten.vercel.app/", 
+    origin: "https://flex-it-out-ten.vercel.app", 
     credentials: true,
   })
 );
