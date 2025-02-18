@@ -9,11 +9,11 @@ dotenv.config();
 
 const app = express();
 
-// ✅ Correct CORS Configuration
+
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow frontend to access
-    credentials: true, // Allow cookies/auth headers
+    origin: "https://flex-it-out-ten.vercel.app/", 
+    credentials: true,
   })
 );
 
