@@ -10,7 +10,7 @@ const Signup = () => {
    
 
     const fetchAPI = async (endpoint, method = "GET", body = null, token = null) => {
-        const API_BASE_URL = "http://localhost:8000/api";
+        const API_BASE_URL = "https://flex-it-out-backend.onrender.com/api";
         const options = {
             method,
             headers: { "Content-Type": "application/json" },

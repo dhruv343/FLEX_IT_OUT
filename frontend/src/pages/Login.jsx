@@ -12,7 +12,7 @@ const Login = () => {
     const dispatch = useDispatch(); // Initialize the dispatch function
 
     const fetchAPI = async (endpoint, method = "GET", body = null, token = null) => {
-        const API_BASE_URL = "http://localhost:8000/api"; // Update if deployed
+        const API_BASE_URL = "https://flex-it-out-backend.onrender.com/api"; // Update if deployed
         const options = {
             method,
             headers: { "Content-Type": "application/json" },
